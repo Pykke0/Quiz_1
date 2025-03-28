@@ -21,6 +21,16 @@
 
 // თქვენი კოდი აქ
 
+// ============== 1 ============== //
+const Animal = {
+   name: 'test',
+   age: 1,
+   makeSound(){
+      return "Some sound";
+   }
+}
+
+
 // ტესტის შემთხვევები
 const dog = new Dog("Rex", 3, "German Shepherd");
 const cat = new Cat("Whiskers", 2, "Gray");
